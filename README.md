@@ -18,6 +18,8 @@ To address these limitations, we propose CIRRUS-Net, a multi-polarization SAR-op
 
 Experiments are conducted on the SpaceNet 6 Expanded Dataset under clean conditions and multiple cloud-fog degradation levels. The degraded samples are synthesized using cloud observations and masks from HRC_WHU, and representation transfer is further examined on cross-region Sentinel-1/2 data. CIRRUS-Net achieves an IoU of **83.50%** under clean observations. Under matched mixed-degradation training, it obtains **72.18% IoU** under heavy degradation, improving over the strongest comparison method by **3.84 percentage points** and retaining **88.84%** of its clean-condition IoU. A dual-polarization adaptation achieves **76.52% IoU** on the cross-region Sentinel-1/2 data. Ablation studies further indicate that complementary polarization modeling and stage-matched prior reconstruction improve building representation, while the benefit of reliability-controlled residual correction becomes more evident as optical degradation increases.
 
+The currently released code and preview data for this study are available at the [CIRRUS-Net GitHub repository](https://github.com/MLS2021/CIRRUS-Net).
+
 ## Degradation Preview
 
 The following images show the same SpaceNet 6 patch under clean, light, medium, and heavy optical degradation. SAR observations and building labels remain unchanged during degradation generation.
