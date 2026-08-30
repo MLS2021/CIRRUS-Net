@@ -1,0 +1,24 @@
+{
+  "patch_id": "tile_5989_y0388_x0256",
+  "tile_id": "tile_5989",
+  "levels": {
+    "light": {
+      "alpha_scale": 0.85,
+      "alpha_mask_mean": 0.11320970952510834,
+      "alpha_mean": 0.09622826427221298,
+      "target_reliability_mean": 0.9037716388702393
+    },
+    "medium": {
+      "alpha_scale": 0.98,
+      "alpha_mask_mean": 0.23237928748130798,
+      "alpha_mean": 0.22773171961307526,
+      "target_reliability_mean": 0.7722681760787964
+    },
+    "heavy": {
+      "alpha_scale": 1.0,
+      "alpha_mask_mean": 0.6569039821624756,
+      "alpha_mean": 0.6569039821624756,
+      "target_reliability_mean": 0.3430960774421692
+    }
+  }
+}
